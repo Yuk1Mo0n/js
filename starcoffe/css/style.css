@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box}
+
+:root{
+    --preto: black
+    --branco
+}
+
+/* Criando variáveis no CSS para ser utilizada e fácil manutenção */
+:root {
+    --preto: rgb(63, 63, 63);
+    --branco: white;
+    --verde: rgb(193, 255, 233);
+}
+
+/*estilizando o header da página*/
+.cabecalho{
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    box-shadow: 0 0 10px var(--preto);
+}
+.logo-menu{
+    display: flex;
+}
+.logo-menu > img {
+    height: 60px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.menu > li {
+    padding: 10px;
+}
+.botoes-menu{
+    display: flex;
+    align-items: center;
+}
+li{
+    list-style-type: none;
+}  
+a {
+    text-decoration: none;
+    color: var(--preto);
+    font-weight: 600;
+}
+.botao-branco{
+    border: 2px solid var(--preto);
+    border-radius: 15px;
+    padding: 5px;
+    margin: 10px;
+}
+.botao-preto{
+    background-color: var(--preto);
+    color: var(--branco);
+    border-radius: 15px;
+    padding: 5px;
+}
+
+
+/*Estilizando o Main*/
+
+main{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+main>img{
+    width: 100%;
+}
+
+.div-1{
+    height: 150px;
+    background-color: var(--verde);
+    text-align: center;
+    padding: 25px;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.div-1>p{
+    margin: 13px;
+}
+
+
+.div-2{
+    background-color: var(--verde);
+    display: flex;
+}
+
+.div-2>img{
+    width: 50%;
+}
+
+.text{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 15px;
+    margin: 50px;
+}
+
+.text2{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 15px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+
+footer {
+    background: var(--Header-Footer_bg);
+    box-shadow: var(--Header-Footer_shadow);
+
+    height: fit-content;
+
+    border-top: 1px solid var(--footer_border_color);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul.flex {
+    display: flex;
+}
+
+footer ul.flex li {
+    margin-left: 20px;
+}
+
+footer ul li {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+footer .infos {
+    height: fit-content;
+    width: 100%;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+footer .icons {
+    display: flex;
+    margin-bottom: 20px;
+    user-select: none;
+    cursor: pointer;
+}
+
+footer .icons li {
+    margin-left: 20px;
+}
+
+footer .politicas {
+    margin-bottom: 20px;
+}
+
+footer .o {
+    font-size: 10px;
+}
