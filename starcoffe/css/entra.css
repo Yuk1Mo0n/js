@@ -3,18 +3,14 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box
-    
+    box-sizing: border-box;
 }
-
-/* Criando variáveis no CSS para ser utilizada e fácil manutenção */
-:root {
-    --preto: rgb(63, 63, 63);
-    --branco: rgb(230, 237, 229);
-    --verde: rgb(90, 197, 124);
+:root{
+    --preto: rgb(20, 21, 20);
+    --branco: rgb(233, 242, 247);
+    --verde: rgb(17, 102, 47);
 }
-
-/*header da página*/
+/* Header */
 .cabecalho{
     background-color: var(--branco);
     display: flex;
@@ -60,61 +56,15 @@ a {
     border-radius: 15px;
     padding: 5px;
 }
-
-
-/*Main*/
-
-main{
-    max-width: 1300px;
-    margin: 0 auto;
-}
-
-main img{
-    width: 100%;
-}
-
-.div-1{
-    height: 150px;
-    background-color: var(--verde);
-    text-align: center;
-    padding: 25px;
-    font-size: 15px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.div-1 p{
-    margin: 13px;
+.branco{
+    width: 350px;
+    height: 400px;
+    background-color: aliceblue;
 }
 
 
-.div-2{
-    background-color: var(--verde);
-    display: flex;
-}
 
-.div-2 img{
-    width: 50%;
-}
 
-.text{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    font-size: 15px;
-    margin: 50px;
-}
-
-.text2{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    font-size: 15px;
-    margin-left: 200px;
-    margin-right: 200px;
-}
 
 
 footer {
