@@ -4,20 +4,25 @@
     box-sizing: border-box;
 }
 body{
-    background-color: cornflowerblue;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: lightseagreen;
+    color: beige;
+    text-align: center;
     align-items: center;
-    display: flex;
+    padding-top: 18px;
+
 }
 section{
     width: 450px;
     height: 260px;
     background-color: azure;
-    color: rgb(9, 9, 93);
+    color: mediumblue;
     border-radius: 3px 5px;
-    box-shadow: 4px 2px 7px rgb(31, 136, 131);
+    box-shadow: 4px 2px 7px rgb(31, 136, 82);
     padding: 15px;
     border-radius: 10px;
     text-align: center;
     margin: 0 auto;
-    margin-bottom: 30px;
 }
+

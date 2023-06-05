@@ -4,9 +4,13 @@
     box-sizing: border-box;
 }
 body{
-    background-color: cornflowerblue;
+    height: 300px;
     align-items: center;
-    display: flex;
+    margin: auto;
+    background-attachment: fixed;
+    margin-top: 50px;
+    background-color: rgb(137, 32, 178);
+    color: rgb(154, 244, 234);
 }
 section{
     width: 450px;
@@ -14,10 +18,20 @@ section{
     background-color: azure;
     color: rgb(9, 9, 93);
     border-radius: 3px 5px;
-    box-shadow: 4px 2px 7px rgb(31, 136, 131);
+    box-shadow: 4px 2px 7px rgb(31, 136, 113);
     padding: 15px;
     border-radius: 10px;
     text-align: center;
     margin: 0 auto;
     margin-bottom: 30px;
+}
+h2{
+    margin-bottom: 20px;
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+br{
+    margin: 20px;
 }
